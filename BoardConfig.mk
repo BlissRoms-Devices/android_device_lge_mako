@@ -159,8 +159,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 BOARD_HARDWARE_CLASS := device/lge/mako/cmhw/
 
-# LZMA Compression
-WITH_LZMA_OTA := true
 
 # BlissPop Config Flags
 TARGET_TC_ROM := 4.8
