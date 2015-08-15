@@ -161,7 +161,7 @@ BOARD_HARDWARE_CLASS := device/lge/mako/cmhw/
 
 
 # BlissPop Config Flags
-TARGET_TC_ROM := 4.8
+TARGET_TC_ROM := 4.9-linaro
 TARGET_TC_KERNEL := 4.9-linaro
 BLISSIFY := true
 BLISS_O3 := true
