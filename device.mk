@@ -176,6 +176,11 @@ PRODUCT_PACKAGES += \
 	audio.r_submix.default \
 	libaudio-resampler
 
+PRODUCT_PACKAGES += \
+        mkfs.f2fs \
+        fsck.f2fs \
+        fibmap.f2fs
+
 # Voice processing
 PRODUCT_PACKAGES += libqcomvoiceprocessing
 PRODUCT_COPY_FILES += \
