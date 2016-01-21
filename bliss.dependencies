@@ -1,7 +1,7 @@
 [
  {
    "remote": "github",
-   "repository": "rwaterspf1/android_kernel_google_msm",
+   "repository": "BlissRoms-Kernels/android_kernel_google_msm",
    "target_path": "kernel/google/msm",
    "revision": "mm6.0"
  },
