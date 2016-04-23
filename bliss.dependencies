@@ -1,8 +1,8 @@
 [
  {
    "remote": "github",
-   "repository": "BlissRoms-Kernels/android_kernel_google_msm",
-   "target_path": "kernel/google/msm",
+   "repository": "BlissRoms-Kernels/lge-kernel-mako",
+   "target_path": "kernel/lge/mako",
    "revision": "mm6.0"
  },
  {
