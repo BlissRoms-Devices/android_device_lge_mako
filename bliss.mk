@@ -21,19 +21,18 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
-# Get the long list of APNs
-PRODUCT_COPY_FILES := device/lge/mako/apns-full-conf.xml:system/etc/apns-conf.xml
-
 # Inherit from the common Open Source product configuration
 $(call inherit-product, vendor/bliss/config/common.mk)
+
+#Inherit device config
+$(call inherit-product, device/lge/mako/full_mako.mk)
 
 PRODUCT_NAME := bliss_mako
 PRODUCT_DEVICE := mako
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RESTRICT_VENDOR_FILES := false
 
-# Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/mako/device.mk)
-$(call inherit-product-if-exists, vendor/lge/mako/device-vendor.mk)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+   PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:5.1.1/LMY48M/2167285:user/release-keys \
+   PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48M 2167285 release-keys"
