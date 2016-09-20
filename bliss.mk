@@ -20,7 +20,6 @@
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
-TARGET_BOOT_ANIMATION_HALF_RES := true
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, vendor/bliss/config/common.mk)
