@@ -1,7 +1,7 @@
 [
  {
    "remote": "github",
-   "repository": "BlissRoms-Kernels/lge-kernel-mako",
+   "repository": "BlissRoms-Kernels/android_kernel_lge_mako",
    "target_path": "kernel/lge/mako",
    "revision": "mm6.0"
  },
