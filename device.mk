@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
 # TODO(danalbert): Remove this once stlport is dead and gone.
 PRODUCT_PACKAGES +=  libstlport
 
-TARGET_KERNEL_SOURCE := kernel/google/msm
+TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := mako_defconfig
 
 PRODUCT_COPY_FILES += \
