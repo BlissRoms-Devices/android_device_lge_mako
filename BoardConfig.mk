@@ -113,4 +113,8 @@ EXTENDED_FONT_FOOTPRINT := true
 
 MALLOC_SVELTE := true
 
+#Toolchains
+TARGET_TC_ROM := 4.9
+TARGET_TC_KENREL := 4.9-sm
+
 -include vendor/lge/mako/BoardConfigVendor.mk
