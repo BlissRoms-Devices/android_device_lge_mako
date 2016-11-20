@@ -3,7 +3,7 @@
    "remote": "github",
    "repository": "BlissRoms-Kernels/android_kernel_lge_mako",
    "target_path": "kernel/lge/mako",
-   "revision": "n7.0"
+   "revision": "n7.1"
  },
  {
    "remote": "github",
@@ -15,6 +15,6 @@
    "remote": "github",
    "repository": "BlissRoms-Vendor/android_vendor_lge_mako",
    "target_path": "vendor/lge/mako",
-   "revision": "n7.0"
+   "revision": "n7.1"
  }
 ]
